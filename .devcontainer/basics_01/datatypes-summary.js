@@ -32,3 +32,32 @@ const myFunction = function(){
 }
 
 console.log(typeof outsideTemp)
+
+
+
+
+
+// -----------------------------------------------
+
+
+//Stack (Primitive),Heap (non-primitive)
+
+let myName = "ashutosh"
+
+let anothername = myName
+anothername = "ashu"
+
+console.log(myName)
+console.log(anothername)
+
+let userOne = {
+    email:"user@google.com",
+    upi:"user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "ash@google.com"
+
+console.log(userOne.email)
+console.log(userTwo.email)
